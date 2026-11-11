@@ -1,13 +1,8 @@
-// ==============================
-// Shopping Cart
-// ==============================
+
 
 let cart = [];
 
 
-// ==============================
-// Add Product To Cart
-// ==============================
 
 function addToCart(productName, productPrice) {
 
@@ -34,9 +29,7 @@ function addToCart(productName, productPrice) {
 }
 
 
-// ==============================
-// Update Cart Count
-// ==============================
+
 
 function updateCartCount() {
 
@@ -53,9 +46,7 @@ function updateCartCount() {
 }
 
 
-// ==============================
-// Open Cart
-// ==============================
+
 
 function openCart() {
 
@@ -68,9 +59,7 @@ function openCart() {
 }
 
 
-// ==============================
-// Close Cart
-// ==============================
+
 
 function closeCart() {
 
@@ -81,9 +70,6 @@ function closeCart() {
 }
 
 
-// ==============================
-// Display Cart Items
-// ==============================
 
 function displayCart() {
 
@@ -161,9 +147,7 @@ function displayCart() {
 }
 
 
-// ==============================
-// Remove Product
-// ==============================
+
 
 function removeFromCart(index) {
 
@@ -174,10 +158,6 @@ function removeFromCart(index) {
     displayCart();
 }
 
-
-// ==============================
-// Checkout
-// ==============================
 
 function checkout() {
 
@@ -194,9 +174,7 @@ function checkout() {
 }
 
 
-// ==============================
-// Product Filter
-// ==============================
+
 
 function filterProducts(category, button) {
 
@@ -237,9 +215,7 @@ function filterProducts(category, button) {
 }
 
 
-// ==============================
-// Mobile Menu
-// ==============================
+
 
 function toggleMenu() {
 
@@ -250,9 +226,7 @@ function toggleMenu() {
 }
 
 
-// ==============================
-// Contact Form
-// ==============================
+
 
 const contactForm =
     document.getElementById("contactForm");
@@ -321,9 +295,7 @@ if (contactForm) {
 }
 
 
-// ==============================
-// Close Modal On Outside Click
-// ==============================
+
 
 window.addEventListener(
     "click",
